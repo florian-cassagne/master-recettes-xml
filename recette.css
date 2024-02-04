@@ -1,0 +1,171 @@
+
+:root{
+    background-color:hsl(30, 100%, 70%);
+    color: black;
+    font-family: sans-serif;
+}
+
+a:link, a:visited{
+    color:black;
+    text-decoration: none;
+    font-weight:bolder;
+    color:hsl(30, 100%, 12%);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.text-xl{
+    font-size:110%;
+}
+.text-2xl{
+    font-size:120%;
+}
+.text-3xl{
+    font-size:140%;
+}
+
+.margin-bottom-half{
+    margin-bottom:0.5em;
+}
+
+.margin-bottom{
+    margin-bottom:1em;
+}
+
+.padding{
+    padding:1em;
+}
+
+.separator-large{
+    margin-bottom:100px;
+    opacity:0;
+}
+
+.flex-row{
+    display:flex;
+    flex-direction:row;
+}
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.flex-row span{
+    text-align:center;
+    padding:1em;
+}
+
+.width-half{
+    width:49.9%;
+}
+
+.width-full{
+    width:100%;
+}
+
+.bg-white{
+    background-color:hsl(0,0%,100%)
+}
+
+.bg-orange1{
+    background-color:hsl(30, 100%, 60%);
+}
+.bg-orange2{
+    background-color:hsl(30, 100%, 65%);
+}
+.bg-orange3{
+    background-color:hsl(30, 100%, 70%);
+}
+.bg-orange4{
+    background-color:hsl(30, 100%, 75%);
+}
+.bg-orange5{
+    background-color:hsl(30, 100%, 80%);
+}
+
+/* Menu */
+
+#menu{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    background-color:hsl(30, 100%, 60%);
+    margin:0;
+}
+
+#menu ul{
+}
+
+#menu li{
+    display:block;
+    margin-left:1em;
+}
+
+#menu li a{
+    display:block;
+    text-align:center;
+    padding:0.5em;
+}
+
+.recette{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.element-list-row:nth-child(even), .auteur:nth-child(even){
+    background-color:hsl(30, 100%, 78%);
+}
+
+.recette-image-container{
+    display:flex;
+    justify-content:center;
+}
+
+.recette-image-container img{
+    max-width:500px;
+    width:50%;
+}
+
+.recette .recette-info-base span{
+    width:50%;
+}
+
+
+.data span:nth-child(even){
+    background-color:hsl(30, 90%, 66%);
+}
+
+.data span:nth-child(odd){
+    background-color:hsl(30, 90%, 60%);
+}
+
+.recette .recette-info-preparation span, .auteur-info span{
+    width:33%;
+}
+
+.recette-info-preparation span:nth-child(1),
+.auteur-info span:nth-child(1){
+    background-color:hsl(30, 90%, 55%);
+}
+
+.recette-info-preparation span:nth-child(2),
+.auteur-info span:nth-child(2){
+    background-color:hsl(30, 90%, 60%);
+}
+
+.recette-info-preparation span:nth-child(3),
+.auteur-info span:nth-child(3){
+    background-color:hsl(30, 90%, 65%);
+}

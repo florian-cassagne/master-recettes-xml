@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Recettes ( Recette*, Auteur*,
+    Ingredient*, Produit*, Categorie*, SousCategorie*
+) >
+
+<!ATTLIST Recette
+        id ID #REQUIRED
+        difficulte (tres-facile|facile|moyen|difficile) #IMPLIED>
+
+<!ELEMENT Recette (Titre, Resume?, Photo?,
+    Date, Quantite?, TempsPrepa?, TempsCuisson?,
+    TempsRepos?, AuteurRef, IngredientRef*, DescriptionPrepa,
+    Note?, Parametre*) >
+
+<!ELEMENT Titre ( #PCDATA ) >
+<!ELEMENT Resume ( #PCDATA ) >
+<!ELEMENT Photo ( #PCDATA ) >
+<!ELEMENT Date ( #PCDATA ) >
+<!ELEMENT Difficulte ( #PCDATA ) >
+<!ELEMENT Quantite ( #PCDATA ) >
+<!ELEMENT TempsPrepa ( #PCDATA ) >
+<!ELEMENT TempsCuisson ( #PCDATA ) >
+<!ELEMENT TempsRepos ( #PCDATA ) >
+<!ELEMENT DescriptionPrepa ( p | ul| table )* >
+<!ELEMENT Note ( #PCDATA ) >
+
+<!ATTLIST RecetteRef ref IDREF #REQUIRED >
+<!ELEMENT RecetteRef EMPTY >
+
+
+<!ELEMENT Ingredient ( Nom, ApportNutritif?,
+    ApportEnergetique?, Saison?, Descriptif?,
+    ProduitRef?, RecetteRef*, Parametre*) >
+<!ATTLIST Ingredient id ID #REQUIRED >
+
+<!ELEMENT Nom ( #PCDATA ) >
+<!ELEMENT ApportNutritif ( #PCDATA ) >
+<!ELEMENT ApportEnergetique ( #PCDATA ) >
+<!ELEMENT Saison ( #PCDATA ) >
+<!ELEMENT Descriptif ( #PCDATA )>
+
+<!ELEMENT IngredientRef ( #PCDATA ) >
+<!ATTLIST IngredientRef ref IDREF #REQUIRED >
+
+
+<!ATTLIST Auteur id ID #REQUIRED>
+<!ATTLIST Auteur sexe (h|f|n) #REQUIRED>
+<!ELEMENT Auteur ( Nom, Age, Pays, Biographie, Parametre*, RecetteRef* ) >
+<!ELEMENT Age ( #PCDATA) >
+<!ELEMENT Pays ( #PCDATA) >
+<!ELEMENT Biographie ( #PCDATA) >
+
+<!ATTLIST AuteurRef ref IDREF #REQUIRED >
+<!ELEMENT AuteurRef EMPTY >
+
+
+<!ATTLIST Categorie id ID #REQUIRED >
+<!ELEMENT CategorieRef EMPTY >
+<!ATTLIST CategorieRef ref IDREF #REQUIRED >
+<!ELEMENT SousCategorieRef EMPTY >
+<!-- TODO : changer implied en required (à voir ?) -->
+<!ATTLIST SousCategorieRef refs IDREFS #IMPLIED >
+<!ELEMENT Categorie ( Nom, Descriptif, Parametre*
+        ) >
+<!ELEMENT SousCategorie ( Nom, Descriptif?,
+        CategorieRef, RecetteRef*, Parametre*
+        ) >
+<!ATTLIST SousCategorie id ID #REQUIRED >
+
+<!ELEMENT Produit ( Nom ) >
+<!ATTLIST Produit id ID #REQUIRED >
+<!ELEMENT ProduitRef EMPTY >
+<!ATTLIST ProduitRef produit IDREF #REQUIRED >
+
+<!ELEMENT Parametre (#PCDATA)>
+
+<!ELEMENT p ( #PCDATA | a | b | i )*>
+<!ELEMENT ul ( li )*>
+<!ELEMENT li ( #PCDATA | a | b | i )*>
+<!ELEMENT table ( tr )+>
+<!ELEMENT tr ( th | td )+>
+<!ELEMENT th ( #PCDATA |a | b | i )*>
+<!ELEMENT td ( #PCDATA | a | b | i )*>
+<!ELEMENT b ( #PCDATA )>
+<!ELEMENT i ( #PCDATA )>
+<!ELEMENT a ( #PCDATA )>
+<!ATTLIST a href CDATA #IMPLIED>

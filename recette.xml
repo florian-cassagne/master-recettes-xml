@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Recettes SYSTEM "recette.dtd">
+<?xml-stylesheet type="text/xsl"
+    href="recette.xslt"?>
+
+<Recettes
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="recette.xsd">
+
+  <Recette id="citronnade" difficulte="tres-facile">
+    <Titre>Citronnade</Titre>
+    <Resume>L’atmosphère est lourd, le soleil brûle, ce temps est parfait pour une bonne citronnade pour vous rafraichir. Bien qu’on ne sache pas qui a inventé la citronnade, on sait que cette dernière trouve son origine dans l’Égypte du XIIe siècle : une recette qui ne date pas d’hier, donc, et qui a pu être perfectionnée avec les années, jusqu’à devenir cette boisson que nous aimons tant. Vous n’aurez pas à vous demander comment en enlever le goût amer, puisque le sirop de sucre l’évitera naturellement !</Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/citronnade-1-820x1169.jpg</Photo>
+    <Date>2022/08/04</Date>
+    <Quantite>4 personnes</Quantite>
+    <TempsPrepa>15 min</TempsPrepa>
+    <TempsCuisson>2 min</TempsCuisson>
+    <TempsRepos>2 H</TempsRepos>
+    <AuteurRef ref="marie-laure-tombini" />
+    <IngredientRef ref="citron_bio">
+      3 citrons bio
+    </IngredientRef>
+    <IngredientRef ref="eau">
+      40 cl d'eau
+    </IngredientRef>
+    <IngredientRef ref="sucre">
+      80 g de sucre
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Dans une casserole, faites chauffer 40 cl d’eau avec le sucre.
+          Laissez complètement refroidir.
+        </li>
+        <li>2. Pressez les citrons.
+        </li>
+        <li>3. Dans une carafe, mélangez le jus de citron avec le sirop de sucre et remuez bien.
+        </li>
+        <li>4. Placez la citronnade au réfrigérateur au moins 1h.
+        </li>
+        <li>5. Décorez de rondelles de citrons bio au moment de servir
+        </li>
+      </ul>
+    </DescriptionPrepa>
+    <Note>4</Note>
+  </Recette>
+
+  <Recette id="muffins-myrtilles-banane"
+           difficulte="facile">
+    <Titre>Muffins myrtilles banane</Titre>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/muffins_myrtilles_banane-970x1024.jpg</Photo>
+    <Date>2015/08/03</Date>
+    <TempsPrepa>15 min</TempsPrepa>
+    <TempsCuisson>25 min</TempsCuisson>
+    <AuteurRef ref="margot" />
+    <IngredientRef ref="farine">
+      100 g de farine
+    </IngredientRef>
+    <IngredientRef ref="maizena">
+      50 g de maïzena
+    </IngredientRef>
+    <IngredientRef ref="levure_chimique">
+      1 cuillerée à soupe de levure chimique
+    </IngredientRef>
+    <IngredientRef ref="oeuf">
+      1 œuf
+    </IngredientRef>
+    <IngredientRef ref="beurre">
+      50 g de beurre
+    </IngredientRef>
+    <IngredientRef ref="lait">
+      4 cl de lait
+    </IngredientRef>
+    <IngredientRef ref="sucre">
+      70 g de sucre
+    </IngredientRef>
+    <IngredientRef ref="myrtille">
+      150 g de myrtilles
+    </IngredientRef>
+    <IngredientRef ref="banane">
+      75 g de banane
+    </IngredientRef>
+    <IngredientRef ref="eau_rose">
+      1 cuillerée à soupe d'eau de rose
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Mélangez la farine, la maïzena, la levure et le sucre.</li>
+        <li>2. Incorporez l’œuf, puis le beurre fondu le lait et l’eau de rose.</li>
+        <li>3. Incorporez délicatement les myrtilles et la banane coupée en dés.</li>
+        <li>4. Versez dans des caissettes à muffins.</li>
+        <li>5. Faites cuire 20 à 25mn dans le four préchauffé à 180°C.</li>
+      </ul>
+    </DescriptionPrepa>
+  </Recette>
+
+  <Recette id="tarte-betterave-pesto"
+           difficulte="moyen">
+    <Titre>Tarte fine à la betterave et pesto d’herbes</Titre>
+    <Resume>Si vous trouvez un beau bouquet de persil, je vous conseille cette fabuleuse recette de tarte fine : j’ai eu l’idée de faire un pesto très parfumé aux herbes pour en tartiner une pâte à tarte et de la garnir de rondelles de betterave. Une recette très originale et vraiment savoureuse !</Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/tarte-fine-betterave-pesto3-932x1250.jpg</Photo>
+    <Date>2015/08/03</Date>
+    <Quantite>6 personnes</Quantite>
+    <TempsPrepa>15 min</TempsPrepa>
+    <TempsCuisson>25 min</TempsCuisson>
+    <AuteurRef ref="marie-laure-tombini" />
+    <IngredientRef ref="persil">
+      20 g de persil
+    </IngredientRef>
+    <IngredientRef ref="parmesan">
+      10 g de parmesan
+    </IngredientRef>
+    <IngredientRef ref="noix">
+      10 g de noix
+    </IngredientRef>
+    <IngredientRef ref="huile">
+      5 g d'huile
+    </IngredientRef>
+    <IngredientRef ref="chevre">
+      100 g de chèvre frais
+    </IngredientRef>
+    <IngredientRef ref="betterave">
+      200 g de betterave cuites
+    </IngredientRef>
+    <IngredientRef ref="pate-feuilletee">
+      1 pâte feuilletée
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Mixez le persil, le parmesan, les noix et l’huile jusqu’à obtenir une pâte.</li>
+        <li>2. Ajoutez le chèvre frais, mélangez.</li>
+        <li>3. Coupez les betteraves en tranches.</li>
+        <li>4. Déroulez la pâte feuilletée sur une plaque à four, tartinez de crème au chèvre en laissant un bord libre de 2 cm, répartissez dessus les tranches de betteraves.</li>
+        <li>5. Faites cuire 25 min dans un four préchauffé à 180 °C.</li>
+        <li>6. Agrémentez avec persil, noix concassées, lamelles de parmesan et un trait d’huile.</li>
+      </ul>
+    </DescriptionPrepa>
+    <Note>5</Note>
+  </Recette>
+
+  <Recette id="canneles-lardons"
+           difficulte="facile">
+    <Titre>Délicieux cannelés aux lardons pour votre soirée foot</Titre>
+    <Resume>Recette mise à jour le 22 juin 2018
+      Photo de la recette : Délicieux cannelés aux lardons pour votre soirée foot
+      J’ai comme l’impression que les apéros canap vont se multiplier ces prochains jours avec les matchs de la coupe du monde… Ce n’est pas un évènement que je suis mais peut-être cherchez-vous des idées pour varier les recettes de l’apéritif ? Je vous propose des cannelés aux lardons, largement plébiscités par ma fille et mon mari ! A découvrir aussi : toutes nos recettes de cannelés salés.</Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/canneles-lardons-753x1024.jpg.webp</Photo>
+    <Date>2018/06/22</Date>
+    <Quantite>25 cannelés</Quantite>
+    <TempsPrepa>10 min</TempsPrepa>
+    <TempsCuisson>35 min</TempsCuisson>
+    <AuteurRef ref="marie-laure-tombini" />
+    <IngredientRef ref="poulet">
+      4 morceaux de poulet
+    </IngredientRef>
+    <IngredientRef ref="poivron-rouge">
+      1 poivron rouge
+    </IngredientRef>
+    <IngredientRef ref="poivron-orange">
+      1 poivron orange
+    </IngredientRef>
+    <IngredientRef ref="tomate">
+      200 g de tomates pelées et concassées en dés
+    </IngredientRef>
+    <IngredientRef ref="champignon">
+      200 g de champignons
+    </IngredientRef>
+    <IngredientRef ref="oignon">
+      2 oignons
+    </IngredientRef>
+    <IngredientRef ref="sel">
+      Sel
+    </IngredientRef>
+    <IngredientRef ref="piment-espelette">
+      Piment d'Espelette
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Salez et poivrez les morceaux de poulet, puis faites-les revenir 5 min sur chaque face dans une sauteuse légèrement huilée. Réservez dans une assiette.</li>
+        <li>2. Coupez finement les oignons, puis ajoutez-les à la sauteuse pour les faire revenir quelques instants.</li>
+        <li>3. Une fois vos champignons lavés et coupés en quatre, faites les cuire 5′ min dans la sauteuse, puis réservez.</li>
+        <li>4. Lavez et épépinez vos poivron, puis coupez-les en lanières et déposez-les dans la sauteuse.</li>
+        <li>5. Ajoutez les tomates concassées et couvez pour laisser mijoter pendant 10 min.</li>
+        <li>6. Déposez les morceaux de poulet et les champignons et laissez mijoter 10 min de plus.</li>
+        <li>7. Servez bien chaud, avec du riz. Bon appétit !</li>
+      </ul>
+    </DescriptionPrepa>
+  </Recette>
+
+  <Recette id="poulet-basquaise-champignons-poivrons"
+           difficulte="facile">
+    <Titre>Poulet basquaise aux champignons et poivrons</Titre>
+    <Resume>Incontournable de la cuisine française, et plus particulièrement basque, le poulet basquaise est une recette qui consiste à faire mijoter du poulet dans un mélange de sauce confite de poivrons rouges et verts, de tomates, d’ail, d’oignons, entre autres, que l’on nomme piperade. Tout comme la pizza Margherita est l’emblème de l’Italie car elle est aux couleurs du drapeau italien, le poulet basquaise représente également le drapeau basque : le rouge et le vert grâce aux poivrons, le blanc apporté par le poulet. Il existe quelques variantes de ce plat, mais ce dernier reste inégalable et vous transportera jusque dans le sud ouest !</Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/poulet-basquaise3-820x1230.jpg</Photo>
+    <Date>2022/07/29</Date>
+    <Quantite>25 cannelés</Quantite>
+    <TempsPrepa>25 min</TempsPrepa>
+    <TempsCuisson>40 min</TempsCuisson>
+    <AuteurRef ref="margot" />
+    <IngredientRef ref="oeuf">
+      3 gros oeufs
+    </IngredientRef>
+    <IngredientRef ref="yaourt">
+      1 yaourt (125 g)
+    </IngredientRef>
+    <IngredientRef ref="lait">
+      10 cl de lait
+    </IngredientRef>
+    <IngredientRef ref="farine">
+      70 g de farine de blé
+    </IngredientRef>
+    <IngredientRef ref="fromage">
+      50 g de fromage râpé (emmental ou comté)
+    </IngredientRef>
+    <IngredientRef ref="lardons">
+      50 g de lardons
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Dans un saladier, battez les oeufs en omelette. Fouettez avec le lait et le yaourt.</li>
+        <li>2. Ajoutez la farine et mélangez bien. Puis incorporez le fromage et les lardons.</li>
+        <li>3. Répartissez la préparation dans des moules à mini cannelés.</li>
+        <li>4. Faites cuire environ 35 min dans le four préchauffé à 180°C.</li>
+      </ul>
+    </DescriptionPrepa>
+    <Note>5</Note>
+  </Recette>
+
+  <Recette id="poke-bowl-mais"
+           difficulte="tres-facile">
+    <Titre>Poke bowl au maïs et saumon</Titre>
+    <Resume>Vous connaissez les poke bowl ? Ces salades qui regorgent de saveurs nous viennent de Hawaï. Elles associent du riz avec du poisson cru, des fruits et des crudités – une vraie explosion de saveurs ! Dans cette recette nous avons utilisé le maïs d’aucy qui est doux et croquant et se marie à merveille avec le saumon cru.
+    </Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/daucy-Recette-poke-bowl-saumon-mais-@Les-Pe%CC%81pites-de-Noisette-500x750.jpg.webp</Photo>
+    <Date>2021/01/27</Date>
+    <Quantite>4 personnes</Quantite>
+    <TempsPrepa>15 min</TempsPrepa>
+    <TempsCuisson>15 min</TempsCuisson>
+    <AuteurRef ref="d-aucy" />
+    <IngredientRef ref="mais">
+      1 boîte moyenne de Maïs sans résidu de pesticides d’aucy (285 g poids net égoutté)
+    </IngredientRef>
+    <IngredientRef ref="saumon">
+      2 dos de saumon extra frais
+    </IngredientRef>
+    <IngredientRef ref="riz">
+      300 g de riz
+    </IngredientRef>
+    <IngredientRef ref="avocat">
+      2 avocats
+    </IngredientRef>
+    <IngredientRef ref="oignon">
+      1 oignon nouveau
+    </IngredientRef>
+    <IngredientRef ref="citron-vert">
+      1 citron vert
+    </IngredientRef>
+    <IngredientRef ref="mangue">
+      1 mangue
+    </IngredientRef>
+    <IngredientRef ref="vinaigre-riz">
+      2 cuillerées à soupe de vinaigre de riz
+    </IngredientRef>
+    <IngredientRef ref="huile-sesame">
+      1 cuillerée à soupe d’huile de sésame
+    </IngredientRef>
+    <IngredientRef ref="graine-sesame">
+      2 cuillerées à soupe de graines de sésame noires et blanches torréfiées
+    </IngredientRef>
+    <IngredientRef ref="coriandre">
+      1 petit bouquet de coriandre fraîche
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Faites cuire le riz dans une casserole d’eau bouillante salée pendant le temps indiqué sur le paquet.</li>
+        <li>2. Égouttez le riz et mettez-le dans un saladier. Arrosez de vinaigre de riz et d’huile de sésame. Mélangez délicatement pour ne pas écraser le riz.</li>
+        <li>3. Découpez le poisson en fines tranches comme pour le sashimi.</li>
+        <li>4. Émincez l’oignon nouveau et ciselez la coriandre.</li>
+        <li>5. Dans un bol, écrasez l’avocat à la fourchette.</li>
+        <li>6. Arrosez d’un filet de jus de citron, l’oignon et une partie de la coriandre. Salez, poivrez.</li>
+        <li>7. Épluchez et découpez la mangue en cubes.</li>
+        <li>8. Dans un petit bol, préparez la vinaigrette en émulsionnant tous les ingrédients ensemble.</li>
+        <li>9. Disposez le riz dans 4 bols puis déposez par-dessus le poisson, l’avocat, le maïs et la mangue.</li>
+        <li>10. Saupoudrez de graines de sésame et de coriandre, puis servez avec la vinaigrette.</li>
+      </ul>
+    </DescriptionPrepa>
+
+  </Recette>
+
+  <Recette id="beurre-algues"
+           difficulte="tres-facile">
+    <Titre>Beurre d’algues</Titre>
+    <Resume>
+      Recette mise à jour le 18 mai 2017
+      Photo de la recette : Beurre d’algues
+      Le beurre d’algues, c’est beau, c’est bon et c’est bio si vous le souhaitez… Une petite découverte qui apportera un grand plus à vos tartines pour accompagner des fruits de mer, des crustacés. Comme quoi, ce n’est pas si difficile de faire un beurre composé maison !
+    </Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/beurre_d_algues-970x1024.jpg</Photo>
+    <Date>2017/05/18</Date>
+    <Quantite>Pour 100g de beurre</Quantite>
+    <TempsPrepa>5 min</TempsPrepa>
+    <AuteurRef ref="marie-laure-tombini" />
+    <IngredientRef ref="beurre">
+      100 g de beurre doux
+    </IngredientRef>
+    <IngredientRef ref="algue">
+      1 cuillerée à soupe de mélange d’algue en paillettes (ou de tartare d’algues)
+    </IngredientRef>
+    <IngredientRef ref="echalote">
+      1 cuillerée à café d’échalote émincée
+    </IngredientRef>
+    <IngredientRef ref="poivre">
+      Poivre
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Laissez ramollir le beurre à température ambiante.</li>
+        <li>2. Ajoutez les algues et l’échalote, poivrez selon votre goût.</li>
+      </ul>
+      <p>Pour une version express, mélangez le beurre à une cuillerée à soupe
+      de tartare d’algues.</p>
+    </DescriptionPrepa>
+  </Recette>
+
+  <Recette id="crevettes-cocktail-avocat-pamplemousse"
+           difficulte="tres-facile">
+    <Titre>Crevettes cocktail, avocat et pamplemousse de Cyril Lignac</Titre>
+    <Resume>
+      Recette publiée le 8 janvier 2021
+      Photo de la recette : Crevettes cocktail, avocat et pamplemousse de Cyril Lignac – Tous en cuisine
+      Dans son émission Tous en cuisine, Cyril Lignac a partagé avec nous sa recette de salade aux crevettes, à l’avocat, au pamplemousse et à l’ananas. Après tous les repas lourds pendant les fêtes, vous avez peut-être envie de vous mettre au régime. Voici une salade d’hiver qui fait le plein de fraîcheur. C’est le meilleur moment pour profiter des avocats et des fruits exotiques. J’ai mis de la mâche à la place de la feuille de chêne et j’ai préféré ne pas mettre de céleri. Je vous conseille de couper les avocats au dernier moment pour éviter qu’ils ne noircissent.
+    </Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/salade-crevettes-avocat-pamplemousse-cyril-lignac2-820x1230.jpg.webp</Photo>
+    <Date>2021/01/08</Date>
+    <Quantite>Pour 4 personnes</Quantite>
+    <TempsPrepa>15 min</TempsPrepa>
+    <AuteurRef ref="marie-laure-tombini" />
+    <IngredientRef ref="crevette">
+      16 crevettes roses cuites et décortiquées
+    </IngredientRef>
+    <IngredientRef ref="salade">
+      1 petite salade feuille de chêne lavée et effeuillée (ou un sachet de mâche)
+    </IngredientRef>
+    <IngredientRef ref="avocat">
+      2 avocats du Chili
+    </IngredientRef>
+    <IngredientRef ref="pamplemousse-rose">
+      1 pamplemousse rose
+    </IngredientRef>
+    <IngredientRef ref="mangue">
+      1 mangue épluchée
+    </IngredientRef>
+    <IngredientRef ref="ananas">
+      3 tranches d’ananas
+    </IngredientRef>
+    <IngredientRef ref="celeri">
+      1 branche de céleri émincée + les feuilles pas trop vertes (de côté)
+    </IngredientRef>
+    <IngredientRef ref="vinaigre-balsamique">
+      5 cl de vinaigre balsamique blanc
+    </IngredientRef>
+    <IngredientRef ref="huile-olive">
+      Huile d’olive
+    </IngredientRef>
+    <IngredientRef ref="sel">
+      Fleur de sel
+    </IngredientRef>
+    <DescriptionPrepa>
+      <ul>
+        <li>1. Découpez les tranches d’ananas en gros dés. Épluchez la mangue et coupez-la en cubes.</li>
+        <li>2. Épluchez le pamplemousse à vif et prélevez les suprêmes.
+          Émincez le céleri. Épluchez les avocats et coupez-les en dés.</li>
+        <li>3. Dans un saladier, mélangez ensemble tous les ingrédients de la mayonnaise. Assaisonnez.</li>
+        <li>4. Épluchez les avocats et coupez en petits dés.</li>
+        <li>5. Dans un grand plat, déposez la salade, les dés de mangue et d’ananas, les segments de pamplemousse, les crevettes, les dés d’avocats, le céleri émincé et les feuilles de céleri. Arrosez d’un filet d’huile d’olive et de vinaigre balsamique blanc. Salez et poivrez. Ajoutez des points de mayonnaise à la poche à douille ou servez-la à part.</li>
+      </ul>
+    </DescriptionPrepa>
+  </Recette>
+
+  <Recette id="brioche-perdue-glace-rose"
+           difficulte="difficile">
+    <Titre>Brioche perdue, glace à la rose et crème de vinaigre balsamique</Titre>
+    <Resume>Ce week-end vibrera sous le signe de la tendresse. Les papillons vont tournoyer dans les estomacs (et pas que). La brioche façon pain perdu, indissociable du brunch dominical, a mis le paquet pour conquérir votre bec sucré. Surmontéee d’une glace maison à la rose, d’une poignée d’amandes effilées et de crème au vinaigre balsamique de Modène Emile Noël… Elles ne vous laisseront pas insensible. Cette harmonie de saveurs et de textures envoie la grisaille sur les roses ! Avec un déjeuner pareil, on se lève forcément du bon pied.
+    </Resume>
+    <Photo>https://odelices.ouest-france.fr/images/recettes/brioche-perdue-glace-rose5-820x1230.jpg</Photo>
+    <Date>2022/02/11</Date>
+    <Quantite>Pour 2 personnes</Quantite>
+    <TempsPrepa>30 min</TempsPrepa>
+    <TempsCuisson>5 min</TempsCuisson>
+    <TempsRepos>30 min</TempsRepos>
+    <AuteurRef ref="marie-laure-tombini" />
+    <IngredientRef ref="oeuf">
+      3 jaunes d’oeuf
+    </IngredientRef>
+    <IngredientRef ref="sucre">
+      75 g de sucre
+    </IngredientRef>
+    <IngredientRef ref="lait">
+      40 cl de lait demi-écrémé
+    </IngredientRef>
+    <IngredientRef ref="creme">
+      10 cl de crème liquide
+    </IngredientRef>
+    <IngredientRef ref="eau-rose">
+      1/2 c. à s. d’eau de rose
+    </IngredientRef>
+    <IngredientRef ref="colorant">
+      1 pointe de colorant alimentaire
+    </IngredientRef>
+    <IngredientRef ref="brioche">
+      8 tranches de brioche
+    </IngredientRef>
+    <IngredientRef ref="oeuf">
+      3 blancs d’oeufs
+    </IngredientRef>
+    <IngredientRef ref="lait">
+      12,5 cl de lait
+    </IngredientRef>
+    <IngredientRef ref="sucre">
+      30 g de sucre
+    </IngredientRef>
+    <IngredientRef ref="beurre">
+      Beurre
+    </IngredientRef>
+    <DescriptionPrepa>
+
+    </DescriptionPrepa>
+  </Recette>
+
+
+  <Auteur id="marie-laure-tombini" sexe="f">
+    <Nom>Marie-Laure Tombini</Nom>
+    <Age>39</Age>
+    <Pays>France</Pays>
+    <Biographie>Auteur et photographe culinaire professionnelle depuis 16 ans, Marie-Laure Tombini a créé en 2002 le site Ôdélices pour partager ses recettes et idées avec vous. Rédactrice en chef des magazines Odelices et Esprit Veggie, elle propose des recettes gourmandes et savoureuses, avec une tendance healthy. Découvrez ses vidéos sur sa chaîne Youtube.</Biographie>
+    <RecetteRef ref="citronnade"/>
+    <RecetteRef ref="tarte-betterave-pesto"/>
+    <RecetteRef ref="canneles-lardons"/>
+    <RecetteRef ref="beurre-algues"/>
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Auteur>
+
+  <Auteur id="margot" sexe="f">
+    <Nom>Margot</Nom>
+    <Age>75</Age>
+    <Pays>France</Pays>
+    <Biographie>Après un CAP Cuisine à l'école Ferrandi, Margot a rejoint l'équipe Odelices en 2009 et 2010 pour proposer chaque jour, des recettes gourmandes et originales.</Biographie>
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Auteur>
+
+  <Auteur id="d-aucy" sexe="n">
+    <Nom>D'aucy (marque)</Nom>
+    <Age>(Inconnu)</Age>
+    <Pays>France</Pays>
+    <Biographie>Marque d'agriculteurs, d'aucy a une responsabilité sociétale forte en vous proposant chaque jour ses légumes</Biographie>
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Auteur>
+
+
+  <Ingredient id="citron_bio">
+    <Nom>Citron</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="citronnade"/>
+  </Ingredient>
+  <Ingredient id="eau">
+    <Nom>Eau</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="citronnade"/>
+  </Ingredient>
+  <Ingredient id="sucre">
+    <Nom>Sucre</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+  <Ingredient id="lait">
+    <Nom>Lait</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+  <Ingredient id="oeuf">
+    <Nom>Oeuf</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+  <Ingredient id="farine">
+    <Nom>Farine</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+  </Ingredient>
+  <Ingredient id="maizena">
+    <Nom>Maizena</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+  </Ingredient>
+  <Ingredient id="levure_chimique">
+    <Nom>Levure chimique</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+  </Ingredient>
+  <Ingredient id="beurre">
+    <Nom>Beurre</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+    <RecetteRef ref="beurre-algues"/>
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+  <Ingredient id="myrtille">
+    <Nom>Myrtille</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+  </Ingredient>
+  <Ingredient id="banane">
+    <Nom>Banane</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+  </Ingredient>
+  <Ingredient id="eau_rose">
+    <Nom>Eau de rose</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="muffins-myrtilles-banane"/>
+  </Ingredient>
+  <Ingredient id="persil">
+    <Nom>Persil</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="tarte-betterave-pesto"/>
+  </Ingredient>
+  <Ingredient id="parmesan">
+    <Nom>Parmesan</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="tarte-betterave-pesto"/>
+  </Ingredient>
+  <Ingredient id="noix">
+    <Nom>Noix</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="tarte-betterave-pesto"/>
+  </Ingredient>
+  <Ingredient id="huile">
+    <Nom>Huile</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="tarte-betterave-pesto"/>
+  </Ingredient>
+  <Ingredient id="chevre">
+    <Nom>Chèvre</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="tarte-betterave-pesto"/>
+  </Ingredient>
+  <Ingredient id="betterave">
+    <Nom>Betterave</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="tarte-betterave-pesto"/>
+  </Ingredient>
+  <Ingredient id="pate-feuilletee">
+    <Nom>Pâte feuilletée</Nom>
+    <ProduitRef produit="prod-feculent" />
+    <RecetteRef ref="tarte-betterave-pesto"/>
+  </Ingredient>
+  <Ingredient id="yaourt">
+    <Nom>Yaourt</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="canneles-lardons"/>
+  </Ingredient>
+  <Ingredient id="fromage">
+    <Nom>Fromage</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="canneles-lardons"/>
+  </Ingredient>
+  <Ingredient id="lardons">
+    <Nom>Lardons</Nom>
+    <ProduitRef produit="prod-viande" />
+    <RecetteRef ref="canneles-lardons"/>
+  </Ingredient>
+  <Ingredient id="poulet">
+    <Nom>Poulet</Nom>
+    <ProduitRef produit="prod-viande" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Ingredient>
+  <Ingredient id="poivron-rouge">
+    <Nom>Poivron rouge</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Ingredient>
+  <Ingredient id="poivron-orange">
+    <Nom>Poivron orange</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Ingredient>
+  <Ingredient id="tomate">
+    <Nom>Tomate</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Ingredient>
+  <Ingredient id="champignon">
+    <Nom>Champignon</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Ingredient>
+  <Ingredient id="oignon">
+    <Nom>Oignon</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Ingredient>
+  <Ingredient id="sel">
+    <Nom>Sel</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="piment-espelette">
+    <Nom>Piment espelette</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons"/>
+  </Ingredient>
+  <Ingredient id="mais">
+    <Nom>Mais</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="saumon">
+    <Nom>Saumon</Nom>
+    <ProduitRef produit="prod-poisson" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="riz">
+    <Nom>Riz</Nom>
+    <ProduitRef produit="prod-feculent" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="avocat">
+    <Nom>Avocat</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="citron-vert">
+    <Nom>Citron vert</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="mangue">
+    <Nom>Mangue</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="vinaigre-riz">
+    <Nom>Vinaigre de riz</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="huile-sesame">
+    <Nom>Huile de sésame</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="graine-sesame">
+    <Nom>Graine de sésame</Nom>
+    <ProduitRef produit="prod-feculent" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="coriandre">
+    <Nom>Coriandre</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="poke-bowl-mais"/>
+  </Ingredient>
+  <Ingredient id="algue">
+    <Nom>Algue</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="beurre-algues"/>
+  </Ingredient>
+  <Ingredient id="echalote">
+    <Nom>Echalote</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="beurre-algues"/>
+  </Ingredient>
+  <Ingredient id="poivre">
+    <Nom>Poivre</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="beurre-algues"/>
+  </Ingredient>
+  <Ingredient id="crevette">
+    <Nom>Crevette</Nom>
+    <ProduitRef produit="prod-poisson" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="salade">
+    <Nom>Salade</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="pamplemousse-rose">
+    <Nom>Pamplemousse rose</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="ananas">
+    <Nom>Ananas</Nom>
+    <ProduitRef produit="prod-fruit" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="celeri">
+    <Nom>Celeri</Nom>
+    <ProduitRef produit="prod-legume" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="vinaigre-balsamique">
+    <Nom>Vinaigre balsamique</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="huile-olive">
+    <Nom>Huile d'olive</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse"/>
+  </Ingredient>
+  <Ingredient id="creme">
+    <Nom>Crème</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+  <Ingredient id="eau-rose">
+    <Nom>Eau de rose</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+  <Ingredient id="colorant">
+    <Nom>Colorant alimentaire</Nom>
+    <ProduitRef produit="prod-autre" />
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+  <Ingredient id="brioche">
+    <Nom>Brioche</Nom>
+    <ProduitRef produit="prod-feculent" />
+    <RecetteRef ref="brioche-perdue-glace-rose"/>
+  </Ingredient>
+
+
+  <Produit id="prod-fruit">
+    <Nom>Fruits</Nom>
+  </Produit>
+  <Produit id="prod-legume">
+    <Nom>Legumes</Nom>
+  </Produit>
+  <Produit id="prod-feculent">
+    <Nom>Féculents</Nom>
+  </Produit>
+  <Produit id="prod-viande">
+    <Nom>Viandes</Nom>
+  </Produit>
+  <Produit id="prod-poisson">
+    <Nom>Poissons</Nom>
+  </Produit>
+  <Produit id="prod-autre">
+    <Nom>Autres</Nom>
+  </Produit>
+
+  <Categorie id="cat-boisson">
+    <Nom>Boissons</Nom>
+    <Descriptif>Surprenez vos convives avec notre sélection de cocktails originaux. Sans oublier les milk-shakes, smoothies et jus de fruits à servir aux enfants ou aux plus grands selon l’heure de la journée. Des boissons chaudes type chocolat chaud pour l’hiver, des thés glacés pour vous rafraichir pendant l’été. Et pour les amateurs, découvrez nos vins et apéritifs maison.</Descriptif>
+  </Categorie>
+  <Categorie id="cat-apero">
+    <Nom>Apéritifs</Nom>
+    <Descriptif>Pour changer des apéritifs où l’on sert des cacahuètes et des chips je vous propose de confectionner de délicieuses bouchées salées, des feuilletés, des tapas… Certes cela prend un peu plus de temps et demande un peu d’organisation mais le résultat est incomparable et vos invités seront certainement conquis. Alors trouvez votre bonheur, et celui de vos hôtes, dans notre sélection de recettes apéritives. Il y en a pour tous les goûts : recettes légères, rapides, exotiques, originales, traditionnelles…</Descriptif>
+  </Categorie>
+  <Categorie id="cat-entree">
+    <Nom>Entrées</Nom>
+    <Descriptif>Toutes nos recettes d’entrées : Cakes salés, Entrées chaudes, Entrées froides, Quiches et Tartes, Salades, Sandwichs, Soupes et veloutés, Terrines, Verrines salées.</Descriptif>
+  </Categorie>
+  <Categorie id="cat-viande">
+    <Nom>Viandes</Nom>
+    <Descriptif>Toutes nos recettes de viande</Descriptif>
+  </Categorie>
+  <Categorie id="cat-poisson">
+    <Nom>Poissons/Crustacés</Nom>
+    <Descriptif>Toutes nos recettes de poissons</Descriptif>
+  </Categorie>
+  <Categorie id="cat-condiment">
+    <Nom>Sauces, Beurre, Condiments</Nom>
+    <Descriptif>Toutes nos recettes de sauces</Descriptif>
+  </Categorie>
+  <Categorie id="cat-autre">
+    <Nom>Autres plats</Nom>
+    <Descriptif>Toutes nos recettes d’autres plats</Descriptif>
+  </Categorie>
+  <Categorie id="cat-pain">
+    <Nom>Pains</Nom>
+    <Descriptif>Toutes nos recettes de pains</Descriptif>
+  </Categorie>
+  <Categorie id="cat-dessert">
+    <Nom>Desserts</Nom>
+    <Descriptif>Toutes nos recettes de desserts : Biscuits, Cakes sucrés, Cupcakes et Muffins, Confitures et Gelées, Crèmes, Flans et Entremets, Crêpes, Beignets, Gaufres, Crumbles et Clafoutis, Douceurs, Fruits, Gâteaux, Gâteaux de fête, Glaces et Sorbets, Macarons, Tartes sucrées, Verrines sucrées</Descriptif>
+  </Categorie>
+
+
+  <SousCategorie id="sous-cat-boissons-sans-alcool">
+    <Nom>Boissons sans alcool</Nom>
+    <CategorieRef ref="cat-boisson" />
+    <RecetteRef ref="citronnade" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-cocktail-avec-alcool">
+    <Nom>Cocktail avec alcool</Nom>
+    <CategorieRef ref="cat-boisson" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-smoothie">
+    <Nom>Smoothie</Nom>
+    <CategorieRef ref="cat-boisson" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-bouchees">
+    <Nom>Bouchées</Nom>
+    <Descriptif>Les bouchées ont souvent plus de succès que les cakes ou tartes coupés en morceaux. Les bouchées peuvent être préparées à l'avance et même congelées, ce qui peut simplifier votre organisation…
+      Macarons, mini brochettes, roulés, toasts, petits choux, cookies… ici tout est salé et vos convives n'en feront qu'une bouchée !</Descriptif>
+    <CategorieRef ref="cat-apero" />
+    <RecetteRef ref="canneles-lardons" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-feuilletes">
+    <Nom>Feuilletés</Nom>
+    <CategorieRef ref="cat-apero" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-tartines">
+    <Nom>Tartines</Nom>
+    <CategorieRef ref="cat-apero" />
+  </SousCategorie>
+
+  <SousCategorie id="sous-cat-cakes">
+    <Nom>Cakes</Nom>
+    <Descriptif>Les cakes salés sont parfaits découpés en petits cubes pour l’apéritif ou servi en tranches accompagnées de salade pour un déjeuner léger. Sinon, emballez-les dans du papier aluminium pour les emporter en pique-nique. L’association classique reste bien sûr lardons, fromage râpé et olives mais dans ce dossier vous trouverez toutes sortes de cakes, aux courgettes, au thon, au pesto…</Descriptif>
+    <CategorieRef ref="cat-entree" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-entrees-chaudes">
+    <Nom>Entrées chaudes</Nom>
+    <CategorieRef ref="cat-entree" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-entrees-froides">
+    <Nom>Entrées froides</Nom>
+    <CategorieRef ref="cat-entree" />
+    <RecetteRef ref="tarte-betterave-pesto" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-salades">
+    <Nom>Salades</Nom>
+    <CategorieRef ref="cat-entree" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-boeuf">
+    <Nom>Boeuf</Nom>
+    <CategorieRef ref="cat-viande" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-canard">
+    <Nom>Canard</Nom>
+    <CategorieRef ref="cat-viande" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-porc">
+    <Nom>Porc</Nom>
+    <CategorieRef ref="cat-viande" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-poulet-volailles">
+    <Nom>Poulet/Volailles</Nom>
+    <Descriptif>Après le porc, la volaille est
+      la viande la plus consommée en France. Elle s’accommode à tous les modes de cuisson : sauté en wok, mijoté en sauce, rôti en entier, grillée… Même si la volaille la plus souvent consommée reste le poulet, le terme désigne aussi la dinde, l’oie, le canard et la pintade. Le poulet et la dinde sont beaucoup moins caloriques que la viande rouge, ce qui leur en fait une excellente option pour ceux qui font attention à leur ligne.</Descriptif>
+    <CategorieRef ref="cat-viande" />
+    <RecetteRef ref="poulet-basquaise-champignons-poivrons" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-veau">
+    <Nom>Veau</Nom>
+    <CategorieRef ref="cat-viande" />
+  </SousCategorie>
+
+  <SousCategorie id="sous-cat-cabillaud">
+    <Nom>Cabillaud</Nom>
+    <CategorieRef ref="cat-poisson" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-crevettes">
+    <Nom>Crevettes</Nom>
+    <CategorieRef ref="cat-poisson" />
+    <RecetteRef ref="beurre-algues" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-saumon">
+    <Nom>Saumon</Nom>
+    <CategorieRef ref="cat-poisson" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-beurre-compose">
+    <Nom>Beurre composé</Nom>
+    <CategorieRef ref="cat-condiment" />
+    <RecetteRef ref="beurre-algues" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-condiment">
+    <Nom>Condiment</Nom>
+    <Descriptif>Un mélange d’herbes, un chutney ou du sel aromatisé peuvent ajouter la touche finale à vos plats et relever les saveurs.</Descriptif>
+    <CategorieRef ref="cat-condiment" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-sauces-blanches">
+    <Nom>Sauces blanches</Nom>
+    <CategorieRef ref="cat-condiment" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-feculents">
+    <Nom>Féculents</Nom>
+    <CategorieRef ref="cat-autre" />
+    <RecetteRef ref="crevettes-cocktail-avocat-pamplemousse" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-legumes">
+    <Nom>Légumes</Nom>
+    <CategorieRef ref="cat-autre" />
+    <RecetteRef ref="poke-bowl-mais" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-oeufs">
+    <Nom>Oeufs</Nom>
+    <CategorieRef ref="cat-autre" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-pates">
+    <Nom>Pâtes</Nom>
+    <CategorieRef ref="cat-autre" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-riz">
+    <Nom>Riz</Nom>
+    <CategorieRef ref="cat-autre" />
+  </SousCategorie>
+
+  <SousCategorie id="sous-cat-brioches-et-viennoiseries">
+    <Nom>Brioches et Viennoiseries</Nom>
+    <CategorieRef ref="cat-pain" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-pains-sales">
+    <Nom>Pains Salés</Nom>
+    <CategorieRef ref="cat-pain" />
+  </SousCategorie>
+
+  <SousCategorie id="sous-cat-biscuits">
+    <Nom>Biscuits</Nom>
+    <CategorieRef ref="cat-dessert" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-cremes-flans-et-entremets">
+    <Nom>Crèmes, flans et entremets</Nom>
+    <CategorieRef ref="cat-dessert" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-cupcakes-et-muffins">
+    <Nom>Cupcakes et Muffins</Nom>
+    <CategorieRef ref="cat-dessert" />
+    <RecetteRef ref="muffins-myrtilles-banane" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-fruits">
+    <Nom>Fruits</Nom>
+    <CategorieRef ref="cat-dessert" />
+  </SousCategorie>
+  <SousCategorie id="sous-cat-gateaux">
+    <Nom>Gâteaux</Nom>
+    <CategorieRef ref="cat-dessert" />
+    <RecetteRef ref="brioche-perdue-glace-rose" />
+  </SousCategorie>
+
+</Recettes>
